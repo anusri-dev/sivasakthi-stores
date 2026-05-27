@@ -1971,3 +1971,110 @@ body.premium-contact-view {
     }
 }
 
+@media screen and (max-width:768px){
+
+.hero{
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 20px !important;
+    height: 100vh !important;
+}
+
+.hero-content{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.hero-card{
+    width: 90% !important;
+    max-width: 300px !important;
+    padding: 20px !important;
+}
+
+.hero-card h1{
+    font-size: 28px !important;
+}
+
+.hero-card p{
+    font-size: 13px !important;
+}
+
+nav{
+    position: relative !important;
+    z-index: 999 !important;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+}
+
+/* =========================
+   SAFE OVERRIDE FIX (DO NOT EDIT ORIGINAL CSS)
+========================= */
+
+/* Prevent horizontal scroll issues */
+html, body {
+    overflow-x: hidden !important;
+}
+
+/* Fix hero image zoom + mobile cropping */
+.hero-pane-slide {
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+/* Fix navbar overlap */
+.master-luxury-nav {
+    z-index: 999999 !important;
+}
+
+/* Fix images responsiveness */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Mobile safety fix */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .pane-content-bound {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .hero-pane-slide {
+        padding-top: 140px !important;
+    }
+}
+/* =========================
+   FORCE DESKTOP MODE (STABLE FIX)
+========================= */
+
+/* STOP ALL MOBILE BREAKING */
+html, body {
+    width: 1280px !important;
+    min-width: 1280px !important;
+    overflow-x: auto !important;
+}
+
+/* LOCK MAIN LAYOUT */
+.master-hero-viewport,
+.hero-pane-slide,
+.nav-container-shell,
+.legacy-layout-flex,
+.panel-matrix-grid {
+    min-width: 1280px !important;
+}
+
+/* DISABLE ALL MEDIA QUERIES EFFECT */
+@media (max-width: 992px), (max-width: 768px) {
+    * {
+        all: unset;
+    }
+}
