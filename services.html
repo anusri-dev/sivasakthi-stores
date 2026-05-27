@@ -121,30 +121,88 @@
         </div>
     </main>
 
-    <footer class="master-luxury-footer" id="footer-block-anchor">
-        <div class="footer-grid-inside">
-            <div class="footer-brand-summary">
-                <h3>Sivasakthi Stores</h3>
-                <div class="footer-accent-underline"></div>
-                <p>Your premier location for unadulterated house grocery items and precision custom-milled flour wellness since 1994.</p>
-            </div>
-            <div class="footer-links-column">
-                <h4>QUICK LINKS</h4>
-                <div class="footer-split-links">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="services.html">Services</a>
-                    <a href="contact.html">Contact</a>
+    <footer class="master-luxury-footer" id="footer-block-anchor" style="padding: 30px 20px 20px 20px; background: #050505; color: #fff; font-family: 'Plus Jakarta Sans', sans-serif; position: relative; border-top: 1px solid rgba(255, 223, 0, 0.25);">
+        
+        <style>
+            @keyframes intenseGoldRadiance {
+                0% { text-shadow: 0 0 10px #bca374, 0 0 18px #bca374; }
+                50% { text-shadow: 0 0 22px #fff, 0 0 35px #ffdf00, 0 0 45px #bca374; }
+                100% { text-shadow: 0 0 10px #bca374, 0 0 18px #bca374; }
+            }
+            .pure-gold-glow {
+                color: #ffffff !important;
+                font-weight: 800;
+                animation: intenseGoldRadiance 3s infinite ease-in-out;
+            }
+            .column-head-glow {
+                color: #ffdf00 !important;
+                text-shadow: 0 0 10px rgba(255, 223, 0, 0.5);
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            .link-hover-glow a {
+                transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            }
+            .link-hover-glow a:hover {
+                color: #ffdf00 !important;
+                text-shadow: 0 0 12px #ffdf00;
+                padding-left: 4px;
+            }
+            .jvt-ultimate-badge {
+                animation: intenseGoldRadiance 4s infinite ease-in-out;
+                transition: all 0.3s ease;
+                background: rgba(188, 163, 116, 0.1);
+            }
+            .jvt-ultimate-badge:hover {
+                background: #ffdf00 !important;
+                color: #000000 !important;
+                -webkit-text-fill-color: #000000 !important;
+                box-shadow: 0 0 25px #ffdf00 !important;
+                text-shadow: none !important;
+            }
+        </style>
+
+        <div class="footer-container-stack" style="max-width: 1200px; margin: 0 auto;">
+            
+            <div class="footer-columns-balance-row" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 35px; margin-bottom: 25px; text-align: left;">
+                
+                <div class="footer-links-column" style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <h3 class="pure-gold-glow" style="font-family: 'Cinzel', serif; font-size: 1.35rem; margin: 0 0 10px 0; letter-spacing: 1px; text-transform: uppercase;">Sivasakthi Stores</h3>
+                    <p style="margin: 0; color: #aaaaaa; font-size: 0.88rem; line-height: 1.5; max-width: 320px;">Your premier location for unadulterated house grocery items and precision custom-milled flour wellness since 1994.</p>
                 </div>
+                
+                <div class="footer-links-column link-hover-glow" style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <h4 class="column-head-glow" style="font-family: 'Playfair Display', serif; font-size: 1.05rem; margin: 0 0 12px 0; text-transform: uppercase;">Quick Links</h4>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px 25px; width: 100%; max-width: 220px;">
+                        <a href="https://anusri-dev.github.io/sivasakthi-stores/index.html" style="text-decoration: none; color: #cccccc; font-size: 0.88rem;">Home</a>
+                        <a href="https://anusri-dev.github.io/sivasakthi-stores/about.html" style="text-decoration: none; color: #cccccc; font-size: 0.88rem;">About</a>
+                        <a href="https://anusri-dev.github.io/sivasakthi-stores/services.html" style="text-decoration: none; color: #cccccc; font-size: 0.88rem;">Services</a>
+                        <a href="https://anusri-dev.github.io/sivasakthi-stores/contact.html" style="text-decoration: none; color: #cccccc; font-size: 0.88rem;">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-column link-hover-glow" style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <h4 class="column-head-glow" style="font-family: 'Playfair Display', serif; font-size: 1.05rem; margin: 0 0 12px 0; text-transform: uppercase;">Contact Details</h4>
+                    <div style="display: flex; flex-direction: column; gap: 8px; width: 100%;">
+                        <a href="tel:+919884121455" style="text-decoration: none; color: #cccccc; font-size: 0.88rem; display: flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-phone" style="color: #ffdf00; font-size: 0.85rem;"></i> +91 98841 21455
+                        </a>
+                        <div style="color: #cccccc; font-size: 0.88rem; display: flex; align-items: center; gap: 8px; line-height: 1.4;">
+                            <i class="fa-solid fa-location-dot" style="color: #ffdf00; font-size: 0.85rem;"></i> 
+                            <span>Velachery, Chennai - 600042.</span>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-            <div class="footer-links-column">
-                <h4>CONTACT DETAILS</h4>
-                <p><i class="fa-solid fa-phone phone-icon-accent"></i> +91 98765 43210</p>
-                <p><i class="fa-solid fa-location-dot phone-icon-accent"></i> 123, Main Street, Tamil Nadu</p>
+            
+            <div class="footer-bottom-copyright-bar" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; border-top: 1px solid rgba(255,223,0,0.1); padding-top: 12px; margin-top: 10px;">
+                <p style="margin: 0; font-size: 0.8rem; color: #666666;">&copy; 2026 Sivasakthi Stores. All Premium Rights Reserved.</p>
+                <p style="margin: 0; font-size: 0.82rem; color: #aaaaaa; display: flex; align-items: center; gap: 6px; letter-spacing: 0.3px;">
+                    Powered by <span class="jvt-ultimate-badge" style="color: #ffffff; font-weight: 800; border: 1px solid #ffdf00; padding: 1px 10px; border-radius: 3px; font-size: 0.78rem; letter-spacing: 1px; box-shadow: 0 0 6px rgba(255, 223, 0, 0.25);">JVT DIGITAL</span>
+                </p>
             </div>
-        </div>
-        <div class="footer-bottom-copyright-bar">
-            <p>&copy; 2026 Sivasakthi Stores. Crafted For Purity & Premium Legacy.</p>
+            
         </div>
     </footer>
 
